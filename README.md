@@ -28,3 +28,6 @@ A collection of JavaScript practice problems focused on understanding and implem
 
 ## Purpose
 To strengthen understanding of JavaScript functions and loops through practical coding exercises and logical problem-solving.
+
+## Connect with Me
+**LinkedIn:** [Vignesh Seethraman](https://www.linkedin.com/in/vignesh-seetharaman12)
