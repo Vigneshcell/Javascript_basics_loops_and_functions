@@ -1,6 +1,6 @@
 // 1.Even or Odd - This is a arrow function which gives reesult as even or odd, 
 // based on the given number.
-// const check = (num) => ( num % 2 == 0 ? "Even" : "Odd" );
+// const check = (num) => ( num % 2 === 0 ? "Even" : "Odd" );
 // console.log(check(4));
 // console.log(check(7));
 // console.log(check(0));
@@ -10,18 +10,19 @@
 // 2. Result Evaluator - This function will return pass,fail or null for invalid marks 
 // basedon given marks by comparing it from 0-100
 // function evaluateResult(marks) {
-//     if(marks < 0 || marks > 100) {
+//     if (marks < 0 || marks > 100) {
+//         console.log("Invalid marks");
 //         return null;
-//     } else if(marks >= 50) {
+//     } else if (marks >= 50) {
 //         return "Pass";
 //     } else {
 //         return "Fail";
 //     }
-// };
+// }
 
-// console.log(evaluateResult(75) ?? "Invalid Marks");
-// console.log(evaluateResult(40) ?? "Invalid Marks");
-// console.log(evaluateResult(120) ?? "Invalid Marks");
+// console.log(evaluateResult(75));
+// console.log(evaluateResult(40));
+// console.log(evaluateResult(120));
 
 
 // 3.Maximum Finder - This funtion will return the largest of given 3 Nos
@@ -55,7 +56,7 @@
 
 // 5.Multiplication table
 // const printTable = function (num) {
-//     for(i=1;i<=10;i++){
+//     for(let i=1;i<=10;i++){
 //         console.log(num, "X", i , "=", num*i);
 //     }
 // };
@@ -121,7 +122,7 @@
 
 // 10.Pattern Builder
 function printPattern(num) {
-    for(i=1;i<=num;i++){
+    for(let i=1;i<=num;i++){
         let pattern = "";
         for (let j = 1; j <= i; j++) {
             pattern += "*";
